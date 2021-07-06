@@ -2,5 +2,5 @@
 from mqtt iot protocol (json) to ros msgs
 
 
-## pozyx mqtt api protocoal
+## pozyx mqtt api protocol
 https://docs.pozyx.io/enterprise/latest/interfaces/mqtt-api
