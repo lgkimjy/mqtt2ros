@@ -37,7 +37,6 @@ class mqtt_bridge(bridge.bridge):
                 pose.header.frame_id = tag_id
 
                 poses.data.append(pose)
-        print(poses)
         mqtt_pub = rospy.Publisher('mqtt', mqtt_msg, queue_size= 1)
         mqtt_pub.publish(poses)
 
