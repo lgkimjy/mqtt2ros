@@ -4,15 +4,22 @@ from mqtt2ros.msg import mqtt_msg
 import bridge
 import rospy
 import signal
+import sys
 
 MQTT_TOPIC = 'uwb'
 MQTT_HOST = 'localhost'
 MQTT_CLIENT_ID = 'bridge'
 MQTT_PORT = '1883'
-
+MQTT_OUTPUT = 1
 class mqtt_bridge(bridge.bridge):
 
     def msg_process(self, msg):
+
+        if MQTT_OUTPUT == 1:
+            with open('/home/tazel/catkin_ws/src/mqtt2ros/scripts/mqtt_output.txt', 'a') as output:
+                output.write(msg.payload.decode().encode('utf-8'))
+                output.write('\n')		
+                output.close()
 
         poses = mqtt_msg()
         true = "True"
@@ -52,5 +59,11 @@ def main():
 if __name__ == '__main__':
     try:
         main()
+        if MQTT_OUTPUT == 1:
+            with open('/home/tazel/catkin_ws/src/mqtt2ros/scripts/mqtt_output.txt', 'a') as output:
+                output.write('\n')
+                output.write('----------------------------------------------------------------------------------------------------------\n')		
+                output.write('\n')
+                output.close()
     except rospy.ROSInterruptException:
         pass
