@@ -9,8 +9,8 @@ https://docs.pozyx.io/enterprise/latest/interfaces/mqtt-api
 ```
 sudo apt install mosquitto mosquitto-clients
 pip install paho-mqtt or  python -m pip install paho-mqtt
+pip install mqtt-recorder
 ```
-
 
 ## Run the Package
 ### Custom data pub/sub
@@ -21,16 +21,16 @@ python mqtt_json_pub.py ../data/config.json
 # MQTT JSON Subscriber
 python mqtt_json_sub.py
 ```
-### Logging MQTT data
+### Record/Replay MQTT data
 ```
-# Use it like rosbag
+# MQTT JSON record
+mqtt-recorder --host [Gateway HOST IP] --mode record --file logs/filename.csv
 
+# MQTT JSON replay
+mqtt-recorder --host localhost --mode replay --file logs/filename.csv
 ```
-### Log data pub/sub2ros
+### Data sub2ros
 ```
-# MQTT JSON log data publisher
-python mqtt_json_pub.py ../log/log.json
-
 # MQTT JSON Subscribe and Parse to custom ROS msg
 rosrun mqtt2ros mqtt2rosmsg.py
 ```
@@ -39,3 +39,4 @@ rosrun mqtt2ros mqtt2rosmsg.py
 * https://gist.github.com/marianoguerra/be216a581ef7bc23673f501fdea0e15a
 * https://rfriend.tistory.com/474
 * http://www.steves-internet-guide.com/send-json-data-mqtt-python/
+* https://pypi.org/project/mqtt-recorder/
