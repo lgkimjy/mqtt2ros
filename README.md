@@ -28,6 +28,9 @@ mqtt-recorder --host [Gateway HOST IP] --mode record --file logs/filename.csv
 
 # MQTT JSON replay
 mqtt-recorder --host localhost --mode replay --file logs/filename.csv
+
+# Rosbag replay
+rosbag play logs/filename.bag
 ```
 ### Data sub2ros
 ```
