@@ -5,7 +5,7 @@ from mqtt2ros.msg import mqtt_msg
 import rospy
 
 
-host = "10.0.0.254" # fill in the IP of your gateway
+host = "192.168.0.31" # fill in the IP of your gateway
 topic = "tags"
 port = 1883
 
@@ -50,7 +50,8 @@ def on_message(client, userdata, msg):
         
         poses.data.append(pose)
 
-    mqtt_pub.publish(poses)
+    if(pose.pose.position.x != 54321):
+        mqtt_pub.publish(poses)
 
 def on_subscribe(client, userdata, mid, granted_qos):
     print("Subscribed to topic!")
