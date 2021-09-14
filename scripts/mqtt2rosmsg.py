@@ -4,15 +4,12 @@ from geometry_msgs.msg import PoseStamped
 from mqtt2ros.msg import mqtt_msg
 import rospy
 
-
 host = "192.168.0.31" # fill in the IP of your gateway
 topic = "tags"
 port = 1883
 
-
 ERROR = 54321
 mqtt_pub = rospy.Publisher('mqtt_coord', mqtt_msg, queue_size= 1)
-
 
 def on_connect(client, userdata, flags, rc):
     print(mqtt.connack_string(rc))
@@ -50,7 +47,7 @@ def on_message(client, userdata, msg):
         
         poses.data.append(pose)
 
-    if(pose.pose.position.x != 54321):
+    if(pose.pose.position.x != ERROR or pose.pose.position.y != ERROR or pose.pose.position.z != ERROR):
         mqtt_pub.publish(poses)
 
 def on_subscribe(client, userdata, mid, granted_qos):
