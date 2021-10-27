@@ -4,7 +4,7 @@ from geometry_msgs.msg import PoseStamped
 from mqtt2ros.msg import mqtt_msg
 import rospy
 
-host = "192.168.0.31" # fill in the IP of your gateway
+host = "10.0.0.254" # fill in the IP of your gateway
 topic = "tags"
 port = 1883
 
@@ -29,17 +29,15 @@ def on_message(client, userdata, msg):
         dic_msg = str(i)
         if dic_msg.find('coordinates') != -1:
             dic_msg = eval(str(i))
-            coor_x = dic_msg['data']['coordinates']['x']
-            coor_y = dic_msg['data']['coordinates']['y']
-            coor_z = dic_msg['data']['coordinates']['z']
-            timestamp = dic_msg['timestamp']
-            tag_id = dic_msg['tagId']
-
-            pose.pose.position.x = coor_x
-            pose.pose.position.y = coor_y
-            pose.pose.position.z = coor_z
-            pose.header.seq = int(timestamp)
-            pose.header.frame_id = tag_id
+            pose.header.seq = int(dic_msg['timestamp'])
+            pose.header.frame_id = dic_msg['tagId']
+            pose.pose.position.x = dic_msg['data']['coordinates']['x']
+            pose.pose.position.y = dic_msg['data']['coordinates']['y']
+            pose.pose.position.z = dic_msg['data']['coordinates']['z']
+            pose.pose.orientation.x = dic_msg['data']['tagData']['quaternion']['x']
+            pose.pose.orientation.y = dic_msg['data']['tagData']['quaternion']['y']
+            pose.pose.orientation.z = dic_msg['data']['tagData']['quaternion']['z']
+            pose.pose.orientation.w = dic_msg['data']['tagData']['quaternion']['w']
 
         else:
             print("no coordinate ouputs")
