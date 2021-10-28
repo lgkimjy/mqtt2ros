@@ -38,9 +38,9 @@ def on_message(client, userdata, msg):
             pose.pose.position.x = dic_msg['data']['coordinates']['x']
             pose.pose.position.y = dic_msg['data']['coordinates']['y']
             pose.pose.position.z = dic_msg['data']['coordinates']['z']
-            pose.pose.orientation.x = dic_msg['data']['tagData']['eulerAngles']['x']
-            pose.pose.orientation.y = dic_msg['data']['tagData']['eulerAngles']['y']
-            pose.pose.orientation.z = dic_msg['data']['tagData']['eulerAngles']['z']
+            pose.pose.orientation.x = -1 * dic_msg['data']['tagData']['eulerAngles']['z']
+            pose.pose.orientation.y = -1 * dic_msg['data']['tagData']['eulerAngles']['y']
+            pose.pose.orientation.z = 360 - dic_msg['data']['tagData']['eulerAngles']['x']
             poses.data.append(pose)
         else:
             print("no coordinate ouputs")
