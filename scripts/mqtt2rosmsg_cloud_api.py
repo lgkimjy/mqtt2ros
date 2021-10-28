@@ -3,10 +3,13 @@ import paho.mqtt.client as mqtt
 from geometry_msgs.msg import PoseStamped
 from mqtt2ros.msg import mqtt_msg
 import rospy
+import ssl
 
-host = "10.0.0.254" # fill in the IP of your gateway
-topic = "tags"
-port = 1883
+host = "mqtt.cloud.pozyxlabs.com"
+port = 443
+topic = "5f928c413528d3055d3093e5"
+username = "5f928c413528d3055d3093e5"
+password = "920a09b0-c5c6-4210-9e4c-60a0d0dff352"
 
 ERROR = 54321
 mqtt_pub = rospy.Publisher('mqtt_coord', mqtt_msg, queue_size= 1)
@@ -30,21 +33,19 @@ def on_message(client, userdata, msg):
         if dic_msg.find('coordinates') != -1:
             dic_msg = eval(str(i))
             pose.header.seq = int(dic_msg['timestamp'])
+            pose.header.stamp = rospy.get_rostime()
             pose.header.frame_id = dic_msg['tagId']
             pose.pose.position.x = dic_msg['data']['coordinates']['x']
             pose.pose.position.y = dic_msg['data']['coordinates']['y']
             pose.pose.position.z = dic_msg['data']['coordinates']['z']
-            pose.pose.orientation.x = dic_msg['data']['tagData']['quaternion']['x']
-            pose.pose.orientation.y = dic_msg['data']['tagData']['quaternion']['y']
-            pose.pose.orientation.z = dic_msg['data']['tagData']['quaternion']['z']
-            pose.pose.orientation.w = dic_msg['data']['tagData']['quaternion']['w']
-
+            pose.pose.orientation.x = dic_msg['data']['tagData']['eulerAngles']['x']
+            pose.pose.orientation.y = dic_msg['data']['tagData']['eulerAngles']['y']
+            pose.pose.orientation.z = dic_msg['data']['tagData']['eulerAngles']['z']
         else:
             print("no coordinate ouputs")
             pose.pose.position.x = pose.pose.position.y = pose.pose.position.z = ERROR
-        
         poses.data.append(pose)
-
+        
     if(pose.pose.position.x != ERROR or pose.pose.position.y != ERROR or pose.pose.position.z != ERROR):
         mqtt_pub.publish(poses)
 
@@ -55,7 +56,10 @@ def main():
 
     rospy.init_node("mqtt_local_api_node", anonymous=True)
 
-    client = mqtt.Client()
+    client = mqtt.Client(transport="websockets")
+    client.username_pw_set(username, password=password)
+    # sets the secure context, enabling the WSS protocol
+    client.tls_set_context(context=ssl.create_default_context())
     # set callbacks
     client.on_connect = on_connect
     client.on_message = on_message
