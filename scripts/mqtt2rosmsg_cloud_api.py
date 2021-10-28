@@ -44,7 +44,7 @@ def on_message(client, userdata, msg):
             poses.data.append(pose)
         else:
             print("no coordinate ouputs")
-            pose.pose.position.x = pose.pose.position.y = pose.pose.position.z = ERROR
+            # pose.pose.position.x = pose.pose.position.y = pose.pose.position.z = ERROR
         
     if(pose.pose.position.x != ERROR or pose.pose.position.y != ERROR or pose.pose.position.z != ERROR):
         mqtt_pub.publish(poses)
