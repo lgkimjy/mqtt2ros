@@ -4,6 +4,7 @@ project(mqtt2ros)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   geometry_msgs
+  sensor_msgs
   rospy
   std_msgs
 )
@@ -11,15 +12,17 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   mqtt_msg.msg
+  mqtt_mag.msg
 )
 
 generate_messages(
   DEPENDENCIES
   geometry_msgs
+  sensor_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS geometry_msgs rospy std_msgs message_runtime
+  CATKIN_DEPENDS geometry_msgs sensor_msgs rospy std_msgs message_runtime
 )
 
 include_directories(
