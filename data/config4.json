@@ -1,31 +1,1066 @@
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4152226, 'data': {'metrics': {'latency': 24, 'rates': {'success': 96.57, 'update': 96.51, 'packetLoss': 2.23}}, 'tagData': {'blinkIndex': 983, 'acceleration': {'x': 0, 'y': -126, 'z': 946}, 'gyro': {'x': 0.25, 'y': 0.1875, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102347, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.5}, {'tagId': '30270', 'anchorId': '52917', 'rss': -82.01}, {'tagId': '30270', 'anchorId': '21237', 'rss': -91.85}, {'tagId': '30270', 'anchorId': '61271', 'rss': -101.53}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.48}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.67}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.46}, {'tagId': '30270', 'anchorId': '53604', 'rss': -95.67}], 'coordinates': {'x': 2755, 'y': -2745, 'z': 1202}, 'score': 0.9362909047094812, 'velocity': {'x': 62, 'y': -77, 'z': -51}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4156868, 'data': {'metrics': {'latency': 25, 'rates': {'success': 98.37, 'update': 98.33, 'packetLoss': 1.61}}, 'tagData': {'blinkIndex': 329696, 'acceleration': {'x': 0, 'y': 19, 'z': 959}, 'gyro': {'x': 0, 'y': -0.125, 'z': 0.0625}, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '52917', 'rss': -87.02}, {'tagId': '30306', 'anchorId': '35908', 'rss': -83.37}, {'tagId': '30306', 'anchorId': '9562', 'rss': -90.03}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.28}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.63}, {'tagId': '30306', 'anchorId': '42808', 'rss': -87.58}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.4}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.34}], 'coordinates': {'x': 8776, 'y': 6134, 'z': 415}, 'score': 0.5936616306271019, 'velocity': {'x': 5, 'y': -80, 'z': -67}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4254487, 'data': {'metrics': {'latency': 19, 'rates': {'success': 98.97, 'update': 98.93, 'packetLoss': 1.61}}, 'tagData': {'blinkIndex': 329697, 'acceleration': {'x': 0, 'y': 18, 'z': 960}, 'gyro': {'x': -0.0625, 'y': 0.1875, 'z': 0.125}, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.5}, {'tagId': '30306', 'anchorId': '52917', 'rss': -87.81}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.91}, {'tagId': '30306', 'anchorId': '7641', 'rss': -87.02}, {'tagId': '30306', 'anchorId': '9562', 'rss': -90.9}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.78}, {'tagId': '30306', 'anchorId': '42808', 'rss': -87.65}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.98}], 'coordinates': {'x': 8775, 'y': 6136, 'z': 415}, 'score': 0.6535275403363648, 'velocity': {'x': 1, 'y': -69, 'z': -65}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.434707, 'data': {'metrics': {'latency': 14, 'rates': {'success': 99.61, 'update': 99.56, 'packetLoss': 1.61}}, 'tagData': {'blinkIndex': 329698, 'acceleration': {'x': 0, 'y': 20, 'z': 960}, 'gyro': {'x': -0.125, 'y': -0.0625, 'z': -0.0625}, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '52917', 'rss': -87.41}, {'tagId': '30306', 'anchorId': '35908', 'rss': -83.41}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.62}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.15}, {'tagId': '30306', 'anchorId': '42808', 'rss': -87.13}, {'tagId': '30306', 'anchorId': '9562', 'rss': -90.74}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.7}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.47}], 'coordinates': {'x': 8771, 'y': 6137, 'z': 417}, 'score': 0.6382991575872767, 'velocity': {'x': -14, 'y': -66, 'z': -62}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.424817, 'data': {'metrics': {'latency': 29, 'rates': {'success': 96.13, 'update': 96.08, 'packetLoss': 2.23}}, 'tagData': {'blinkIndex': 984, 'acceleration': {'x': 2, 'y': -127, 'z': 948}, 'gyro': {'x': 0, 'y': 0.1875, 'z': -0.0625}, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102347, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.63}, {'tagId': '30270', 'anchorId': '61271', 'rss': -101.71}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.22}, {'tagId': '30270', 'anchorId': '52917', 'rss': -82.02}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.39}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.02}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.71}, {'tagId': '30270', 'anchorId': '53604', 'rss': -96.95}], 'coordinates': {'x': 2754, 'y': -2748, 'z': 1202}, 'score': 0.8961583812593563, 'velocity': {'x': 58, 'y': -80, 'z': -49}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.434241, 'data': {'metrics': {'latency': 23, 'rates': {'success': 96.78, 'update': 96.72, 'packetLoss': 2.22}}, 'tagData': {'blinkIndex': 985, 'acceleration': {'x': 2, 'y': -127, 'z': 943}, 'gyro': {'x': 0.0625, 'y': 0.0625, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -85.2}, {'tagId': '30270', 'anchorId': '61271', 'rss': -99.81}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.82}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.44}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.97}, {'tagId': '30270', 'anchorId': '53604', 'rss': -95.83}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.58}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.25}], 'coordinates': {'x': 2752, 'y': -2753, 'z': 1198}, 'score': 0.9334173283664556, 'velocity': {'x': 53, 'y': -88, 'z': -52}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4437842, 'data': {'metrics': {'latency': 18, 'rates': {'success': 97.4, 'update': 97.34, 'packetLoss': 2.22}}, 'tagData': {'blinkIndex': 986, 'acceleration': {'x': 0, 'y': -126, 'z': 945}, 'gyro': {'x': 0.1875, 'y': -0.0625, 'z': -0.0625}, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.84}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.73}, {'tagId': '30270', 'anchorId': '61271', 'rss': -101.71}, {'tagId': '30270', 'anchorId': '7641', 'rss': -85.69}, {'tagId': '30270', 'anchorId': '53604', 'rss': -97.75}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.75}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.56}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.74}], 'coordinates': {'x': 2750, 'y': -2761, 'z': 1189}, 'score': 0.8926333515854369, 'velocity': {'x': 50, 'y': -98, 'z': -62}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4442706, 'data': {'metrics': {'latency': 18, 'rates': {'success': 99.18, 'update': 99.13, 'packetLoss': 1.61}}, 'tagData': {'blinkIndex': 329699, 'acceleration': {'x': 1, 'y': 18, 'z': 961}, 'gyro': {'x': 0.0625, 'y': -0.125, 'z': 0.125}, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.7}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.99}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.93}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.35}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.35}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.73}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.35}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.88}], 'coordinates': {'x': 8770, 'y': 6139, 'z': 416}, 'score': 0.6310465289233441, 'velocity': {'x': -16, 'y': -58, 'z': -64}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4533067, 'data': {'metrics': {'latency': 23, 'rates': {'success': 97, 'update': 96.94, 'packetLoss': 2.21}}, 'tagData': {'blinkIndex': 987, 'acceleration': {'x': 1, 'y': -129, 'z': 948}, 'gyro': {'x': 0.0625, 'y': -0.25, 'z': 0.0625}, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.65}, {'tagId': '30270', 'anchorId': '61271', 'rss': -97.1}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.55}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.54}, {'tagId': '30270', 'anchorId': '21237', 'rss': -94.72}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.99}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.38}, {'tagId': '30270', 'anchorId': '53604', 'rss': -97.1}], 'coordinates': {'x': 2746, 'y': -2755, 'z': 1181}, 'score': 0.8467986824647705, 'velocity': {'x': 36, 'y': -81, 'z': -72}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.453826, 'data': {'metrics': {'latency': 23, 'rates': {'success': 98.74, 'update': 98.7, 'packetLoss': 1.6}}, 'tagData': {'blinkIndex': 329700, 'acceleration': {'x': 1, 'y': 21, 'z': 961}, 'gyro': {'x': 0.125, 'y': -0.25, 'z': 0.0625}, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.39}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.25}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.94}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.91}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.63}, {'tagId': '30306', 'anchorId': '9562', 'rss': -90.57}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.6}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.68}], 'coordinates': {'x': 8768, 'y': 6137, 'z': 413}, 'score': 0.6338615201379353, 'velocity': {'x': -21, 'y': -60, 'z': -67}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4628346, 'data': {'metrics': {'latency': 17, 'rates': {'success': 97.63, 'update': 97.56, 'packetLoss': 2.21}}, 'tagData': {'blinkIndex': 988, 'acceleration': {'x': 1, 'y': -128, 'z': 943}, 'gyro': {'x': 0.0625, 'y': 0.0625, 'z': 15.9375}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.55}, {'tagId': '30270', 'anchorId': '61271', 'rss': -100.11}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.94}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.71}, {'tagId': '30270', 'anchorId': '21237', 'rss': -94.3}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.89}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.89}, {'tagId': '30270', 'anchorId': '53604', 'rss': -96.14}], 'coordinates': {'x': 2749, 'y': -2756, 'z': 1180}, 'score': 0.9332862023459947, 'velocity': {'x': 45, 'y': -82, 'z': -74}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.463329, 'data': {'metrics': {'latency': 18, 'rates': {'success': 99.37, 'update': 99.31, 'packetLoss': 1.6}}, 'tagData': {'blinkIndex': 329701, 'acceleration': {'x': 0, 'y': 20, 'z': 958}, 'gyro': {'x': -0.0625, 'y': 0.125, 'z': 0.125}, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.11}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.94}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.95}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.68}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.5}, {'tagId': '30306', 'anchorId': '7641', 'rss': -87.4}, {'tagId': '30306', 'anchorId': '9562', 'rss': -90}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.53}], 'coordinates': {'x': 8770, 'y': 6136, 'z': 408}, 'score': 0.6112791541666823, 'velocity': {'x': -16, 'y': -60, 'z': -72}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4723687, 'data': {'metrics': {'latency': 22, 'rates': {'success': 97.21, 'update': 97.14, 'packetLoss': 2.21}}, 'tagData': {'blinkIndex': 989, 'acceleration': {'x': 1, 'y': -128, 'z': 945}, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.61}, {'tagId': '30270', 'anchorId': '61271', 'rss': -101.53}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.82}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.08}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.82}, {'tagId': '30270', 'anchorId': '9562', 'rss': -84.19}, {'tagId': '30270', 'anchorId': '53604', 'rss': -95.68}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.66}], 'coordinates': {'x': 2751, 'y': -2760, 'z': 1180}, 'score': 0.9501346211318885, 'velocity': {'x': 50, 'y': -90, 'z': -72}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.472853, 'data': {'metrics': {'latency': 23, 'rates': {'success': 98.91, 'update': 98.85, 'packetLoss': 1.6}}, 'tagData': {'blinkIndex': 329702, 'acceleration': {'x': 0, 'y': 21, 'z': 960}, 'gyro': {'x': -0.125, 'y': 0.125, 'z': 0}, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '61271', 'rss': -83.34}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.82}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.15}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.31}, {'tagId': '30306', 'anchorId': '35908', 'rss': -83.14}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.75}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.78}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.42}], 'coordinates': {'x': 8768, 'y': 6136, 'z': 402}, 'score': 0.5989193745797842, 'velocity': {'x': -21, 'y': -61, 'z': -79}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4819057, 'data': {'metrics': {'latency': 16, 'rates': {'success': 97.84, 'update': 97.76, 'packetLoss': 2.2}}, 'tagData': {'blinkIndex': 990, 'acceleration': {'x': 1, 'y': -127, 'z': 943}, 'gyro': {'x': 0.0625, 'y': 0, 'z': 0}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '21237', 'rss': -92.1}, {'tagId': '30270', 'anchorId': '35908', 'rss': -84.4}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.42}, {'tagId': '30270', 'anchorId': '61271', 'rss': -97.27}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.65}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.4}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.54}, {'tagId': '30270', 'anchorId': '53604', 'rss': -101.06}], 'coordinates': {'x': 2747, 'y': -2754, 'z': 1173}, 'score': 0.7715814732937041, 'velocity': {'x': 34, 'y': -73, 'z': -81}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4824834, 'data': {'metrics': {'latency': 28, 'rates': {'success': 98.48, 'update': 98.42, 'packetLoss': 1.59}}, 'tagData': {'blinkIndex': 329703, 'acceleration': {'x': 0, 'y': 20, 'z': 961}, 'gyro': {'x': -0.125, 'y': -0.125, 'z': 0}, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.06}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.3}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.51}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.19}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.08}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.69}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.49}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.53}], 'coordinates': {'x': 8768, 'y': 6137, 'z': 396}, 'score': 0.6372673004361349, 'velocity': {'x': -20, 'y': -55, 'z': -85}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4913445, 'data': {'metrics': {'latency': 21, 'rates': {'success': 97.43, 'update': 97.36, 'packetLoss': 2.2}}, 'tagData': {'blinkIndex': 991, 'acceleration': {'x': 0, 'y': -126, 'z': 944}, 'gyro': {'x': 0.125, 'y': 0.0625, 'z': -0.0625}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '61271', 'rss': -98.06}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.6}, {'tagId': '30270', 'anchorId': '52917', 'rss': -82.13}, {'tagId': '30270', 'anchorId': '53604', 'rss': -96.27}, {'tagId': '30270', 'anchorId': '35908', 'rss': -84.51}, {'tagId': '30270', 'anchorId': '9562', 'rss': -82.99}, {'tagId': '30270', 'anchorId': '21237', 'rss': -93.91}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.74}], 'coordinates': {'x': 2748, 'y': -2764, 'z': 1170}, 'score': 0.8407380170388096, 'velocity': {'x': 42, 'y': -91, 'z': -83}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4918885, 'data': {'metrics': {'latency': 22, 'rates': {'success': 99.08, 'update': 99.01, 'packetLoss': 1.59}}, 'tagData': {'blinkIndex': 329704, 'acceleration': {'x': 0, 'y': 20, 'z': 961}, 'gyro': {'x': -0.1875, 'y': -0.125, 'z': -0.0625}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '61271', 'rss': -83.17}, {'tagId': '30306', 'anchorId': '35908', 'rss': -83.15}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.11}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.94}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.36}, {'tagId': '30306', 'anchorId': '9562', 'rss': -89.45}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.82}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.69}], 'coordinates': {'x': 8772, 'y': 6137, 'z': 392}, 'score': 0.6272909200038289, 'velocity': {'x': -6, 'y': -51, 'z': -89}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.500966, 'data': {'metrics': {'latency': 26, 'rates': {'success': 97.06, 'update': 96.98, 'packetLoss': 2.19}}, 'tagData': {'blinkIndex': 992, 'acceleration': {'x': 1, 'y': -129, 'z': 946}, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.69}, {'tagId': '30270', 'anchorId': '61271', 'rss': -100.28}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.61}, {'tagId': '30270', 'anchorId': '52917', 'rss': -82.06}, {'tagId': '30270', 'anchorId': '7641', 'rss': -87.27}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.61}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.87}, {'tagId': '30270', 'anchorId': '53604', 'rss': -96.6}], 'coordinates': {'x': 2746, 'y': -2768, 'z': 1162}, 'score': 0.9333962300205199, 'velocity': {'x': 36, 'y': -94, 'z': -91}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.5014133, 'data': {'metrics': {'latency': 27, 'rates': {'success': 98.66, 'update': 98.59, 'packetLoss': 1.59}}, 'tagData': {'blinkIndex': 329705, 'acceleration': {'x': 2, 'y': 19, 'z': 958}, 'gyro': {'x': 0.0625, 'y': 0, 'z': 0}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -83.33}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.84}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.5}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.67}, {'tagId': '30306', 'anchorId': '7641', 'rss': -85.98}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.55}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.23}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.75}], 'coordinates': {'x': 8771, 'y': 6137, 'z': 393}, 'score': 0.6242742142365512, 'velocity': {'x': -11, 'y': -49, 'z': -87}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5104034, 'data': {'metrics': {'latency': 20, 'rates': {'success': 97.67, 'update': 97.58, 'packetLoss': 2.19}}, 'tagData': {'blinkIndex': 993, 'acceleration': {'x': 0, 'y': -128, 'z': 945}, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625}, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '61271', 'rss': -97.27}, {'tagId': '30270', 'anchorId': '35908', 'rss': -84.92}, {'tagId': '30270', 'anchorId': '21237', 'rss': -94.09}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.18}, {'tagId': '30270', 'anchorId': '52917', 'rss': -82.22}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.6}, {'tagId': '30270', 'anchorId': '53604', 'rss': -98.7}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.37}], 'coordinates': {'x': 2747, 'y': -2769, 'z': 1165}, 'score': 0.9338352944679031, 'velocity': {'x': 37, 'y': -96, 'z': -86}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.5109982, 'data': {'metrics': {'latency': 22, 'rates': {'success': 99.25, 'update': 99.18, 'packetLoss': 1.59}}, 'tagData': {'blinkIndex': 329706, 'acceleration': {'x': 1, 'y': 22, 'z': 958}, 'gyro': {'x': 0.1875, 'y': -0.1875, 'z': 0}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '52917', 'rss': -86.95}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.17}, {'tagId': '30306', 'anchorId': '35908', 'rss': -84.07}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.55}, {'tagId': '30306', 'anchorId': '9562', 'rss': -87.84}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.86}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.96}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.49}], 'coordinates': {'x': 8773, 'y': 6137, 'z': 385}, 'score': 0.6363854965883304, 'velocity': {'x': -2, 'y': -49, 'z': -96}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.320234, 'data': {'metrics': {'latency': 221, 'rates': {'success': 96.62, 'update': 97.53, 'packetLoss': 2.18}}, 'tagData': {'blinkIndex': 973, 'acceleration': {'x': 1, 'y': -129, 'z': 945}, 'gyro': {'x': 0.0625, 'y': -0.0625, 'z': 0.0625}, 'magnetic': {'x': 57.25, 'y': 127.875, 'z': -169.25}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102347, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '52917', 'rss': -82.65}, {'tagId': '30270', 'anchorId': '9562', 'rss': -85.17}]}, 'success': 'False', 'errorCode': '7 - Positioning result is considered invalid'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.520025, 'data': {'metrics': {'latency': 25, 'rates': {'success': 97.26, 'update': 98.18, 'packetLoss': 2.41}}, 'tagData': {'blinkIndex': 994, 'acceleration': {'x': 1, 'y': -128, 'z': 945}, 'gyro': {'x': 0.125, 'y': -0.0625, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -85.05}, {'tagId': '30270', 'anchorId': '61271', 'rss': -102.2}, {'tagId': '30270', 'anchorId': '21237', 'rss': -92.91}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.76}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81}, {'tagId': '30270', 'anchorId': '42808', 'rss': -87.99}, {'tagId': '30270', 'anchorId': '53604', 'rss': -95.67}, {'tagId': '30270', 'anchorId': '9562', 'rss': -84.44}], 'coordinates': {'x': 2747, 'y': -2773, 'z': 1164}, 'score': 0.9514503690745506, 'velocity': {'x': 39, 'y': -101, 'z': -85}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.520635, 'data': {'metrics': {'latency': 26, 'rates': {'success': 98.84, 'update': 98.77, 'packetLoss': 1.58}}, 'tagData': {'blinkIndex': 329707, 'acceleration': {'x': 2, 'y': 22, 'z': 958}, 'gyro': {'x': 0.1875, 'y': -0.1875, 'z': -0.0625}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '21237', 'rss': -82.63}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.93}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86.97}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.4}, {'tagId': '30306', 'anchorId': '35908', 'rss': -84.44}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.62}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.52}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.55}], 'coordinates': {'x': 8774, 'y': 6135, 'z': 381}, 'score': 0.6338637969330673, 'velocity': {'x': 0, 'y': -52, 'z': -100}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5295033, 'data': {'metrics': {'latency': 30, 'rates': {'success': 96.84, 'update': 97.75, 'packetLoss': 2.4}}, 'tagData': {'blinkIndex': 995, 'acceleration': {'x': 0, 'y': -128, 'z': 943}, 'gyro': {'x': 0.125, 'y': -0.0625, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '61271', 'rss': -97.59}, {'tagId': '30270', 'anchorId': '35908', 'rss': -84.96}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.74}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81}, {'tagId': '30270', 'anchorId': '53604', 'rss': -95.85}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.88}, {'tagId': '30270', 'anchorId': '21237', 'rss': -93.17}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.19}], 'coordinates': {'x': 2743, 'y': -2765, 'z': 1161}, 'score': 0.7880533928261165, 'velocity': {'x': 23, 'y': -82, 'z': -89}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.530093, 'data': {'metrics': {'latency': 32, 'rates': {'success': 98.39, 'update': 98.32, 'packetLoss': 1.58}}, 'tagData': {'blinkIndex': 329708, 'acceleration': {'x': 2, 'y': 20, 'z': 960}, 'gyro': {'x': -0.125, 'y': -0.0625, 'z': 0}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '35908', 'rss': -82.93}, {'tagId': '30306', 'anchorId': '61271', 'rss': -82.91}, {'tagId': '30306', 'anchorId': '52917', 'rss': -86}, {'tagId': '30306', 'anchorId': '7641', 'rss': -85.75}, {'tagId': '30306', 'anchorId': '9562', 'rss': -88.82}, {'tagId': '30306', 'anchorId': '21237', 'rss': -82.58}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.07}, {'tagId': '30306', 'anchorId': '42808', 'rss': -85.98}], 'coordinates': {'x': 8775, 'y': 6135, 'z': 379}, 'score': 0.6359189884444042, 'velocity': {'x': 4, 'y': -52, 'z': -100}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5392325, 'data': {'metrics': {'latency': 25, 'rates': {'success': 97.46, 'update': 98.35, 'packetLoss': 2.4}}, 'tagData': {'blinkIndex': 996, 'acceleration': {'x': 0, 'y': -127, 'z': 941}, 'gyro': {'x': 0, 'y': 0.1875, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '35908', 'rss': -84.88}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.12}, {'tagId': '30270', 'anchorId': '21237', 'rss': -94.09}, {'tagId': '30270', 'anchorId': '61271', 'rss': -120}, {'tagId': '30270', 'anchorId': '42808', 'rss': -89.53}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.43}, {'tagId': '30270', 'anchorId': '53604', 'rss': -97.27}], 'coordinates': {'x': 2742, 'y': -2774, 'z': 1158}, 'score': 0.9143277857966174, 'velocity': {'x': 23, 'y': -97, 'z': -90}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.539646, 'data': {'metrics': {'latency': 26, 'rates': {'success': 99, 'update': 98.92, 'packetLoss': 1.58}}, 'tagData': {'blinkIndex': 329709, 'acceleration': {'x': 0, 'y': 20, 'z': 963}, 'gyro': {'x': 0, 'y': 0.125, 'z': 0}, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70}, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25}, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375}, 'gravityVector': {'x': -2, 'y': 21, 'z': 980}, 'pressure': 102416.25, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30306', 'anchorId': '52917', 'rss': -86.78}, {'tagId': '30306', 'anchorId': '35908', 'rss': -83.43}, {'tagId': '30306', 'anchorId': '9562', 'rss': -89.19}, {'tagId': '30306', 'anchorId': '21237', 'rss': -83.07}, {'tagId': '30306', 'anchorId': '61271', 'rss': -83.35}, {'tagId': '30306', 'anchorId': '42808', 'rss': -86.61}, {'tagId': '30306', 'anchorId': '7641', 'rss': -86.55}, {'tagId': '30306', 'anchorId': '53604', 'rss': -83.46}], 'coordinates': {'x': 8774, 'y': 6133, 'z': 382}, 'score': 0.6381672417098202, 'velocity': {'x': 1, 'y': -54, 'z': -95}, 'type': 1, 'zones': []}, 'success': 'True'}]
-[{'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5485783, 'data': {'metrics': {'latency': 19, 'rates': {'success': 98.06, 'update': 98.95, 'packetLoss': 2.4}}, 'tagData': {'blinkIndex': 997, 'acceleration': {'x': 2, 'y': -128, 'z': 946}, 'gyro': {'x': -0.0625, 'y': 0, 'z': 0}, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5}, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75}, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0}, 'gravityVector': {'x': 1, 'y': -132, 'z': 971}, 'pressure': 102351, 'customSensors': [{'name': 'customPayload', 'value': ''}]}, 'anchorData': [{'tagId': '30270', 'anchorId': '61271', 'rss': -105.05}, {'tagId': '30270', 'anchorId': '35908', 'rss': -84.76}, {'tagId': '30270', 'anchorId': '21237', 'rss': -93.59}, {'tagId': '30270', 'anchorId': '7641', 'rss': -86.73}, {'tagId': '30270', 'anchorId': '52917', 'rss': -81.91}, {'tagId': '30270', 'anchorId': '42808', 'rss': -88.14}, {'tagId': '30270', 'anchorId': '53604', 'rss': -96.6}, {'tagId': '30270', 'anchorId': '9562', 'rss': -83.67}], 'coordinates': {'x': 2742, 'y': -2782, 'z': 1161}, 'score': 0.9063168914368189, 'velocity': {'x': 23, 'y': -109, 'z': -83}, 'type': 1, 'zones': []}, 'success': 'True'}]
-
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4152226, 'data': {'metrics': {'latency': 24, 'rates': {'success': 96.57, 'update': 96.51, 'packetLoss': 2.23
+                }
+            }, 'tagData': {'blinkIndex': 983, 'acceleration': {'x': 0, 'y': -126, 'z': 946
+                }, 'gyro': {'x': 0.25, 'y': 0.1875, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102347, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.5
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.01
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -91.85
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -101.53
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.48
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.67
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.46
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -95.67
+                }
+            ], 'coordinates': {'x': 2755, 'y': -2745, 'z': 1202
+            }, 'score': 0.9362909047094812, 'velocity': {'x': 62, 'y': -77, 'z': -51
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4156868, 'data': {'metrics': {'latency': 25, 'rates': {'success': 98.37, 'update': 98.33, 'packetLoss': 1.61
+                }
+            }, 'tagData': {'blinkIndex': 329696, 'acceleration': {'x': 0, 'y': 19, 'z': 959
+                }, 'gyro': {'x': 0, 'y': -0.125, 'z': 0.0625
+                }, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -87.02
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.37
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -90.03
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.28
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.63
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -87.58
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.4
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.34
+                }
+            ], 'coordinates': {'x': 8776, 'y': 6134, 'z': 415
+            }, 'score': 0.5936616306271019, 'velocity': {'x': 5, 'y': -80, 'z': -67
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4254487, 'data': {'metrics': {'latency': 19, 'rates': {'success': 98.97, 'update': 98.93, 'packetLoss': 1.61
+                }
+            }, 'tagData': {'blinkIndex': 329697, 'acceleration': {'x': 0, 'y': 18, 'z': 960
+                }, 'gyro': {'x': -0.0625, 'y': 0.1875, 'z': 0.125
+                }, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.5
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -87.81
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.91
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -87.02
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -90.9
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.78
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -87.65
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.98
+                }
+            ], 'coordinates': {'x': 8775, 'y': 6136, 'z': 415
+            }, 'score': 0.6535275403363648, 'velocity': {'x': 1, 'y': -69, 'z': -65
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.434707, 'data': {'metrics': {'latency': 14, 'rates': {'success': 99.61, 'update': 99.56, 'packetLoss': 1.61
+                }
+            }, 'tagData': {'blinkIndex': 329698, 'acceleration': {'x': 0, 'y': 20, 'z': 960
+                }, 'gyro': {'x': -0.125, 'y': -0.0625, 'z': -0.0625
+                }, 'magnetic': {'x': 20.375, 'y': 9.875, 'z': -71.875
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -87.41
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.41
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.62
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.15
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -87.13
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -90.74
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.7
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.47
+                }
+            ], 'coordinates': {'x': 8771, 'y': 6137, 'z': 417
+            }, 'score': 0.6382991575872767, 'velocity': {'x': -14, 'y': -66, 'z': -62
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.424817, 'data': {'metrics': {'latency': 29, 'rates': {'success': 96.13, 'update': 96.08, 'packetLoss': 2.23
+                }
+            }, 'tagData': {'blinkIndex': 984, 'acceleration': {'x': 2, 'y': -127, 'z': 948
+                }, 'gyro': {'x': 0, 'y': 0.1875, 'z': -0.0625
+                }, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102347, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.63
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -101.71
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.22
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.02
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.39
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.02
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.71
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -96.95
+                }
+            ], 'coordinates': {'x': 2754, 'y': -2748, 'z': 1202
+            }, 'score': 0.8961583812593563, 'velocity': {'x': 58, 'y': -80, 'z': -49
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.434241, 'data': {'metrics': {'latency': 23, 'rates': {'success': 96.78, 'update': 96.72, 'packetLoss': 2.22
+                }
+            }, 'tagData': {'blinkIndex': 985, 'acceleration': {'x': 2, 'y': -127, 'z': 943
+                }, 'gyro': {'x': 0.0625, 'y': 0.0625, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -85.2
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -99.81
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.82
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.44
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.97
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -95.83
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.58
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.25
+                }
+            ], 'coordinates': {'x': 2752, 'y': -2753, 'z': 1198
+            }, 'score': 0.9334173283664556, 'velocity': {'x': 53, 'y': -88, 'z': -52
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4437842, 'data': {'metrics': {'latency': 18, 'rates': {'success': 97.4, 'update': 97.34, 'packetLoss': 2.22
+                }
+            }, 'tagData': {'blinkIndex': 986, 'acceleration': {'x': 0, 'y': -126, 'z': 945
+                }, 'gyro': {'x': 0.1875, 'y': -0.0625, 'z': -0.0625
+                }, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.84
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.73
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -101.71
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -85.69
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -97.75
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.75
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.56
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.74
+                }
+            ], 'coordinates': {'x': 2750, 'y': -2761, 'z': 1189
+            }, 'score': 0.8926333515854369, 'velocity': {'x': 50, 'y': -98, 'z': -62
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4442706, 'data': {'metrics': {'latency': 18, 'rates': {'success': 99.18, 'update': 99.13, 'packetLoss': 1.61
+                }
+            }, 'tagData': {'blinkIndex': 329699, 'acceleration': {'x': 1, 'y': 18, 'z': 961
+                }, 'gyro': {'x': 0.0625, 'y': -0.125, 'z': 0.125
+                }, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.7
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.99
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.93
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.35
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.35
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.73
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.35
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.88
+                }
+            ], 'coordinates': {'x': 8770, 'y': 6139, 'z': 416
+            }, 'score': 0.6310465289233441, 'velocity': {'x': -16, 'y': -58, 'z': -64
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4533067, 'data': {'metrics': {'latency': 23, 'rates': {'success': 97, 'update': 96.94, 'packetLoss': 2.21
+                }
+            }, 'tagData': {'blinkIndex': 987, 'acceleration': {'x': 1, 'y': -129, 'z': 948
+                }, 'gyro': {'x': 0.0625, 'y': -0.25, 'z': 0.0625
+                }, 'magnetic': {'x': 57.5625, 'y': 128.5625, 'z': -168.0625
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.65
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -97.1
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.55
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.54
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -94.72
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.99
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.38
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -97.1
+                }
+            ], 'coordinates': {'x': 2746, 'y': -2755, 'z': 1181
+            }, 'score': 0.8467986824647705, 'velocity': {'x': 36, 'y': -81, 'z': -72
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.453826, 'data': {'metrics': {'latency': 23, 'rates': {'success': 98.74, 'update': 98.7, 'packetLoss': 1.6
+                }
+            }, 'tagData': {'blinkIndex': 329700, 'acceleration': {'x': 1, 'y': 21, 'z': 961
+                }, 'gyro': {'x': 0.125, 'y': -0.25, 'z': 0.0625
+                }, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.39
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.25
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.94
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.91
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.63
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -90.57
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.6
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.68
+                }
+            ], 'coordinates': {'x': 8768, 'y': 6137, 'z': 413
+            }, 'score': 0.6338615201379353, 'velocity': {'x': -21, 'y': -60, 'z': -67
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4628346, 'data': {'metrics': {'latency': 17, 'rates': {'success': 97.63, 'update': 97.56, 'packetLoss': 2.21
+                }
+            }, 'tagData': {'blinkIndex': 988, 'acceleration': {'x': 1, 'y': -128, 'z': 943
+                }, 'gyro': {'x': 0.0625, 'y': 0.0625, 'z': 15.9375
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.55
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -100.11
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.94
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.71
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -94.3
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.89
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.89
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -96.14
+                }
+            ], 'coordinates': {'x': 2749, 'y': -2756, 'z': 1180
+            }, 'score': 0.9332862023459947, 'velocity': {'x': 45, 'y': -82, 'z': -74
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.463329, 'data': {'metrics': {'latency': 18, 'rates': {'success': 99.37, 'update': 99.31, 'packetLoss': 1.6
+                }
+            }, 'tagData': {'blinkIndex': 329701, 'acceleration': {'x': 0, 'y': 20, 'z': 958
+                }, 'gyro': {'x': -0.0625, 'y': 0.125, 'z': 0.125
+                }, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.11
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.94
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.95
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.68
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.5
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -87.4
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -90
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.53
+                }
+            ], 'coordinates': {'x': 8770, 'y': 6136, 'z': 408
+            }, 'score': 0.6112791541666823, 'velocity': {'x': -16, 'y': -60, 'z': -72
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4723687, 'data': {'metrics': {'latency': 22, 'rates': {'success': 97.21, 'update': 97.14, 'packetLoss': 2.21
+                }
+            }, 'tagData': {'blinkIndex': 989, 'acceleration': {'x': 1, 'y': -128, 'z': 945
+                }, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.61
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -101.53
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.82
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.08
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.82
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -84.19
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -95.68
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.66
+                }
+            ], 'coordinates': {'x': 2751, 'y': -2760, 'z': 1180
+            }, 'score': 0.9501346211318885, 'velocity': {'x': 50, 'y': -90, 'z': -72
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.472853, 'data': {'metrics': {'latency': 23, 'rates': {'success': 98.91, 'update': 98.85, 'packetLoss': 1.6
+                }
+            }, 'tagData': {'blinkIndex': 329702, 'acceleration': {'x': 0, 'y': 21, 'z': 960
+                }, 'gyro': {'x': -0.125, 'y': 0.125, 'z': 0
+                }, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.34
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.82
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.15
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.31
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.14
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.75
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.78
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.42
+                }
+            ], 'coordinates': {'x': 8768, 'y': 6136, 'z': 402
+            }, 'score': 0.5989193745797842, 'velocity': {'x': -21, 'y': -61, 'z': -79
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4819057, 'data': {'metrics': {'latency': 16, 'rates': {'success': 97.84, 'update': 97.76, 'packetLoss': 2.2
+                }
+            }, 'tagData': {'blinkIndex': 990, 'acceleration': {'x': 1, 'y': -127, 'z': 943
+                }, 'gyro': {'x': 0.0625, 'y': 0, 'z': 0
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.1
+                },
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.4
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.42
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -97.27
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.65
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.4
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.54
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -101.06
+                }
+            ], 'coordinates': {'x': 2747, 'y': -2754, 'z': 1173
+            }, 'score': 0.7715814732937041, 'velocity': {'x': 34, 'y': -73, 'z': -81
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4824834, 'data': {'metrics': {'latency': 28, 'rates': {'success': 98.48, 'update': 98.42, 'packetLoss': 1.59
+                }
+            }, 'tagData': {'blinkIndex': 329703, 'acceleration': {'x': 0, 'y': 20, 'z': 961
+                }, 'gyro': {'x': -0.125, 'y': -0.125, 'z': 0
+                }, 'magnetic': {'x': 20.375, 'y': 9.5625, 'z': -70.25
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.06
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.3
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.51
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.19
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.08
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.69
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.49
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.53
+                }
+            ], 'coordinates': {'x': 8768, 'y': 6137, 'z': 396
+            }, 'score': 0.6372673004361349, 'velocity': {'x': -20, 'y': -55, 'z': -85
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.4913445, 'data': {'metrics': {'latency': 21, 'rates': {'success': 97.43, 'update': 97.36, 'packetLoss': 2.2
+                }
+            }, 'tagData': {'blinkIndex': 991, 'acceleration': {'x': 0, 'y': -126, 'z': 944
+                }, 'gyro': {'x': 0.125, 'y': 0.0625, 'z': -0.0625
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -98.06
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.6
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.13
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -96.27
+                },
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.51
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -82.99
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -93.91
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.74
+                }
+            ], 'coordinates': {'x': 2748, 'y': -2764, 'z': 1170
+            }, 'score': 0.8407380170388096, 'velocity': {'x': 42, 'y': -91, 'z': -83
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.4918885, 'data': {'metrics': {'latency': 22, 'rates': {'success': 99.08, 'update': 99.01, 'packetLoss': 1.59
+                }
+            }, 'tagData': {'blinkIndex': 329704, 'acceleration': {'x': 0, 'y': 20, 'z': 961
+                }, 'gyro': {'x': -0.1875, 'y': -0.125, 'z': -0.0625
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.17
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.15
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.11
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.94
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.36
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -89.45
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.82
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.69
+                }
+            ], 'coordinates': {'x': 8772, 'y': 6137, 'z': 392
+            }, 'score': 0.6272909200038289, 'velocity': {'x': -6, 'y': -51, 'z': -89
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.500966, 'data': {'metrics': {'latency': 26, 'rates': {'success': 97.06, 'update': 96.98, 'packetLoss': 2.19
+                }
+            }, 'tagData': {'blinkIndex': 992, 'acceleration': {'x': 1, 'y': -129, 'z': 946
+                }, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.69
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -100.28
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.61
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.06
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -87.27
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.61
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.87
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -96.6
+                }
+            ], 'coordinates': {'x': 2746, 'y': -2768, 'z': 1162
+            }, 'score': 0.9333962300205199, 'velocity': {'x': 36, 'y': -94, 'z': -91
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.5014133, 'data': {'metrics': {'latency': 27, 'rates': {'success': 98.66, 'update': 98.59, 'packetLoss': 1.59
+                }
+            }, 'tagData': {'blinkIndex': 329705, 'acceleration': {'x': 2, 'y': 19, 'z': 958
+                }, 'gyro': {'x': 0.0625, 'y': 0, 'z': 0
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.33
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.84
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.5
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.67
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -85.98
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.55
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.23
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.75
+                }
+            ], 'coordinates': {'x': 8771, 'y': 6137, 'z': 393
+            }, 'score': 0.6242742142365512, 'velocity': {'x': -11, 'y': -49, 'z': -87
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5104034, 'data': {'metrics': {'latency': 20, 'rates': {'success': 97.67, 'update': 97.58, 'packetLoss': 2.19
+                }
+            }, 'tagData': {'blinkIndex': 993, 'acceleration': {'x': 0, 'y': -128, 'z': 945
+                }, 'gyro': {'x': 0.0625, 'y': 0, 'z': -0.0625
+                }, 'magnetic': {'x': 57.25, 'y': 128.25, 'z': -168.875
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -97.27
+                },
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.92
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -94.09
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.18
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.22
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.6
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -98.7
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.37
+                }
+            ], 'coordinates': {'x': 2747, 'y': -2769, 'z': 1165
+            }, 'score': 0.9338352944679031, 'velocity': {'x': 37, 'y': -96, 'z': -86
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.5109982, 'data': {'metrics': {'latency': 22, 'rates': {'success': 99.25, 'update': 99.18, 'packetLoss': 1.59
+                }
+            }, 'tagData': {'blinkIndex': 329706, 'acceleration': {'x': 1, 'y': 22, 'z': 958
+                }, 'gyro': {'x': 0.1875, 'y': -0.1875, 'z': 0
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.95
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.17
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -84.07
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.55
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -87.84
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.86
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.96
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.49
+                }
+            ], 'coordinates': {'x': 8773, 'y': 6137, 'z': 385
+            }, 'score': 0.6363854965883304, 'velocity': {'x': -2, 'y': -49, 'z': -96
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.320234, 'data': {'metrics': {'latency': 221, 'rates': {'success': 96.62, 'update': 97.53, 'packetLoss': 2.18
+                }
+            }, 'tagData': {'blinkIndex': 973, 'acceleration': {'x': 1, 'y': -129, 'z': 945
+                }, 'gyro': {'x': 0.0625, 'y': -0.0625, 'z': 0.0625
+                }, 'magnetic': {'x': 57.25, 'y': 127.875, 'z': -169.25
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102347, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -82.65
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -85.17
+                }
+            ]
+        }, 'success': 'False', 'errorCode': '7 - Positioning result is considered invalid'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.520025, 'data': {'metrics': {'latency': 25, 'rates': {'success': 97.26, 'update': 98.18, 'packetLoss': 2.41
+                }
+            }, 'tagData': {'blinkIndex': 994, 'acceleration': {'x': 1, 'y': -128, 'z': 945
+                }, 'gyro': {'x': 0.125, 'y': -0.0625, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -85.05
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -102.2
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -92.91
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.76
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -87.99
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -95.67
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -84.44
+                }
+            ], 'coordinates': {'x': 2747, 'y': -2773, 'z': 1164
+            }, 'score': 0.9514503690745506, 'velocity': {'x': 39, 'y': -101, 'z': -85
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.520635, 'data': {'metrics': {'latency': 26, 'rates': {'success': 98.84, 'update': 98.77, 'packetLoss': 1.58
+                }
+            }, 'tagData': {'blinkIndex': 329707, 'acceleration': {'x': 2, 'y': 22, 'z': 958
+                }, 'gyro': {'x': 0.1875, 'y': -0.1875, 'z': -0.0625
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.63
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.93
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.97
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.4
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -84.44
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.62
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.52
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.55
+                }
+            ], 'coordinates': {'x': 8774, 'y': 6135, 'z': 381
+            }, 'score': 0.6338637969330673, 'velocity': {'x': 0, 'y': -52, 'z': -100
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5295033, 'data': {'metrics': {'latency': 30, 'rates': {'success': 96.84, 'update': 97.75, 'packetLoss': 2.4
+                }
+            }, 'tagData': {'blinkIndex': 995, 'acceleration': {'x': 0, 'y': -128, 'z': 943
+                }, 'gyro': {'x': 0.125, 'y': -0.0625, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -97.59
+                },
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.96
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.74
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -95.85
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.88
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -93.17
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.19
+                }
+            ], 'coordinates': {'x': 2743, 'y': -2765, 'z': 1161
+            }, 'score': 0.7880533928261165, 'velocity': {'x': 23, 'y': -82, 'z': -89
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.530093, 'data': {'metrics': {'latency': 32, 'rates': {'success': 98.39, 'update': 98.32, 'packetLoss': 1.58
+                }
+            }, 'tagData': {'blinkIndex': 329708, 'acceleration': {'x': 2, 'y': 20, 'z': 960
+                }, 'gyro': {'x': -0.125, 'y': -0.0625, 'z': 0
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -82.93
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -82.91
+                },
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -85.75
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -88.82
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -82.58
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.07
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -85.98
+                }
+            ], 'coordinates': {'x': 8775, 'y': 6135, 'z': 379
+            }, 'score': 0.6359189884444042, 'velocity': {'x': 4, 'y': -52, 'z': -100
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5392325, 'data': {'metrics': {'latency': 25, 'rates': {'success': 97.46, 'update': 98.35, 'packetLoss': 2.4
+                }
+            }, 'tagData': {'blinkIndex': 996, 'acceleration': {'x': 0, 'y': -127, 'z': 941
+                }, 'gyro': {'x': 0, 'y': 0.1875, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.88
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.81
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.12
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -94.09
+                },
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -120
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -89.53
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.43
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -97.27
+                }
+            ], 'coordinates': {'x': 2742, 'y': -2774, 'z': 1158
+            }, 'score': 0.9143277857966174, 'velocity': {'x': 23, 'y': -97, 'z': -90
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30306', 'timestamp': 1635422736.539646, 'data': {'metrics': {'latency': 26, 'rates': {'success': 99, 'update': 98.92, 'packetLoss': 1.58
+                }
+            }, 'tagData': {'blinkIndex': 329709, 'acceleration': {'x': 0, 'y': 20, 'z': 963
+                }, 'gyro': {'x': 0, 'y': 0.125, 'z': 0
+                }, 'magnetic': {'x': 20, 'y': 9.875, 'z': -70
+                }, 'eulerAngles': {'x': 302.25, 'y': -0.125, 'z': -1.25
+                }, 'quaternion': {'x': 0.87567138671875, 'y': 0.0089111328125, 'z': 0.00653076171875, 'w': 0.48284912109375
+                }, 'gravityVector': {'x': -2, 'y': 21, 'z': 980
+                }, 'pressure': 102416.25, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30306', 'anchorId': '52917', 'rss': -86.78
+                },
+                {'tagId': '30306', 'anchorId': '35908', 'rss': -83.43
+                },
+                {'tagId': '30306', 'anchorId': '9562', 'rss': -89.19
+                },
+                {'tagId': '30306', 'anchorId': '21237', 'rss': -83.07
+                },
+                {'tagId': '30306', 'anchorId': '61271', 'rss': -83.35
+                },
+                {'tagId': '30306', 'anchorId': '42808', 'rss': -86.61
+                },
+                {'tagId': '30306', 'anchorId': '7641', 'rss': -86.55
+                },
+                {'tagId': '30306', 'anchorId': '53604', 'rss': -83.46
+                }
+            ], 'coordinates': {'x': 8774, 'y': 6133, 'z': 382
+            }, 'score': 0.6381672417098202, 'velocity': {'x': 1, 'y': -54, 'z': -95
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
+[
+    {'version': '2.0', 'tagId': '30270', 'timestamp': 1635422736.5485783, 'data': {'metrics': {'latency': 19, 'rates': {'success': 98.06, 'update': 98.95, 'packetLoss': 2.4
+                }
+            }, 'tagData': {'blinkIndex': 997, 'acceleration': {'x': 2, 'y': -128, 'z': 946
+                }, 'gyro': {'x': -0.0625, 'y': 0, 'z': 0
+                }, 'magnetic': {'x': 57.5625, 'y': 127.875, 'z': -168.5
+                }, 'eulerAngles': {'x': 359.9375, 'y': 0.0625, 'z': 7.75
+                }, 'quaternion': {'x': 0.9976806640625, 'y': -0.067626953125, 'z': -0.000732421875, 'w': 0
+                }, 'gravityVector': {'x': 1, 'y': -132, 'z': 971
+                }, 'pressure': 102351, 'customSensors': [
+                    {'name': 'customPayload', 'value': ''
+                    }
+                ]
+            }, 'anchorData': [
+                {'tagId': '30270', 'anchorId': '61271', 'rss': -105.05
+                },
+                {'tagId': '30270', 'anchorId': '35908', 'rss': -84.76
+                },
+                {'tagId': '30270', 'anchorId': '21237', 'rss': -93.59
+                },
+                {'tagId': '30270', 'anchorId': '7641', 'rss': -86.73
+                },
+                {'tagId': '30270', 'anchorId': '52917', 'rss': -81.91
+                },
+                {'tagId': '30270', 'anchorId': '42808', 'rss': -88.14
+                },
+                {'tagId': '30270', 'anchorId': '53604', 'rss': -96.6
+                },
+                {'tagId': '30270', 'anchorId': '9562', 'rss': -83.67
+                }
+            ], 'coordinates': {'x': 2742, 'y': -2782, 'z': 1161
+            }, 'score': 0.9063168914368189, 'velocity': {'x': 23, 'y': -109, 'z': -83
+            }, 'type': 1, 'zones': []
+        }, 'success': 'True'
+    }
+]
