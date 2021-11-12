@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import paho.mqtt.client as mqtt
 from geometry_msgs.msg import PoseStamped
 from sensor_msgs.msg import MagneticField
