@@ -13,6 +13,7 @@ add_message_files(
   FILES
   mqtt_msg.msg
   mqtt_mag.msg
+  mqtt_imu.msg
 )
 
 generate_messages(
