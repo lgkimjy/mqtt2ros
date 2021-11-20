@@ -81,7 +81,8 @@ def on_message(client, userdata, msg):
             poses.data.append(pose)
             imus.data.append(imu)
         else:
-            print("no coordinate ouputs")
+            pose.header.frame_id = dic_msg['tagId']
+            rospy.logdebug("[%s] no coordinate outputs", pose.header.frame_id)
             # pose.pose.position.x = pose.pose.position.y = pose.pose.position.z = ERROR
         
     if(len(poses.data)!=0 and len(mags.data)!=0):
@@ -97,7 +98,8 @@ def on_subscribe(client, userdata, mid, granted_qos):
 
 def main():
 
-    rospy.init_node("mqtt_local_api_node", anonymous=True)
+    rospy.init_node("mqtt_cloud_api_node", anonymous=True)
+    rospy.loginfo("[mqtt2ros] Cloud API node initialized")
 
     client = mqtt.Client(transport="websockets")
     client.username_pw_set(username, password=password)
