@@ -1,0 +1,3 @@
+<launch>
+      <node pkg="mqtt2ros" type="mqtt2rosmsg_local_api.py" name="mqtt2rosmsg_local_api" output="screen" respawn="true"></node>
+</launch>
