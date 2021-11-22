@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import paho.mqtt.client as mqtt
 from geometry_msgs.msg import PoseStamped
 from sensor_msgs.msg import MagneticField, Imu
@@ -7,8 +7,7 @@ import rospy
 import ssl
 import signal, sys
 
-host = "10.0.0.254" #"192.168.50.201" # fill in the IP of your gateway
-# host = "localhost" # fill in the IP of your gateway
+host = "10.0.0.254"   # "192.168.50.201" # fill in the IP of your gateway
 topic = "tags"
 port = 1883
 
@@ -84,11 +83,14 @@ def on_message(client, userdata, msg):
             ## flags about appending data or not
             if(count == 0):
                 poses.data.append(pose)
+                mags.data.append(mag)
+                imus.data.append(imu)
                 id_checker.append(dic_msg['tagId'])
                 count += 1
 
             if pose.header.frame_id in id_checker:
-                rospy.loginfo("[%s] same coord", dic_msg['tagId'])
+                # rospy.loginfo("[%s] same coord", dic_msg['tagId'])
+                pass
             else:
                 id_checker.append(pose.header.frame_id)
                 poses.data.append(pose)
@@ -119,7 +121,7 @@ def main():
 
     rospy.init_node("mqtt_local_api_node", anonymous=True)
     rospy.loginfo("[mqtt2ros] Local API node initialized")
-    rospy.Timer(rospy.Duration(0.01), timer_callback)
+    rospy.Timer(rospy.Duration(0.02), timer_callback)
 
     client = mqtt.Client()
     # set callbacks
