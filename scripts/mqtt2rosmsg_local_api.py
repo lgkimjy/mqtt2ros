@@ -36,7 +36,8 @@ def on_message(client, userdata, msg):
     # print("Positioning update:", msg.payload.decode())
 
     true = "True"
-    false = "False"    
+    false = "False"
+    null = "None"
 
     ini_msg = eval(msg.payload.decode().encode('utf-8'))
 
@@ -121,7 +122,7 @@ def main():
 
     rospy.init_node("mqtt_local_api_node", anonymous=True)
     rospy.loginfo("[mqtt2ros] Local API node initialized")
-    rospy.Timer(rospy.Duration(0.02), timer_callback)
+    rospy.Timer(rospy.Duration(0.01), timer_callback)
 
     client = mqtt.Client()
     # set callbacks
