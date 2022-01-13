@@ -46,7 +46,7 @@ def on_message(client, userdata, msg):
         mag = MagneticField()
         imu = Imu()
         dic_msg = str(i)
-        if dic_msg.find('coordinates') != -1:
+        if dic_msg.find('coordinates') != -1 and dic_msg.find('eulerAngles') != -1:
             dic_msg = eval(str(i))
             pose.header.seq = int(dic_msg['timestamp'])
             mag.header.seq = int(dic_msg['timestamp'])
